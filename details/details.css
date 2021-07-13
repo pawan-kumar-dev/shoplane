@@ -111,3 +111,17 @@
   font-weight: 400;
   color: rgba(0, 0, 0, 0.6);
 }
+
+@media (max-width: 768px) {
+  .product-wrapper {
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  #product-image {
+    width: 80%;
+  }
+
+  #product-details {
+    width: 90%;
+  }
+}

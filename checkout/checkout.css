@@ -91,3 +91,17 @@
   color: rgba(0, 0, 0, 0.8);
   color: white;
 }
+
+@media (max-width: 768px) {
+  #content-wrapper {
+    flex-direction: column;
+  }
+  #content-wrapper > div:first-of-type {
+    width: 90%;
+  }
+
+  #content-wrapper > div:last-of-type {
+    width: 90%;
+    margin-left: 0;
+  }
+}
